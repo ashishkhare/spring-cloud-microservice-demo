@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: CONFIG-SERVICE
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ashishkhare/cloudconfigserver.git
+server:
+  port: 9196
+eureka:
+  client:
+    enabled: true
+    fetch-registry: true
+    service-url:
+      defaultzone: http://localhost:8761/eurekaserver
+    instance:
+      hostname: localhost
+
