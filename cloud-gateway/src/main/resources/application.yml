@@ -1,13 +1,5 @@
 server:
   port: 8989
-eureka:
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    service:
-      defaultZone: http://localhost:8761/eureka
-  instance:
-    hostname: localhost
 spring:
   application:
     name: GATEWAY-SERVICE
