@@ -18,3 +18,6 @@
 ### Feedback
 
 ashish1910@gmail.com
+
+### Note
+Some of the spring dependencies may give error while cloning the repo. Please resolve them by downgrading the versions to 2.2.2.RELEASE
