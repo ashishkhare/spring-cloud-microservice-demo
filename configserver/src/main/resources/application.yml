@@ -1,16 +1,17 @@
 spring:
   application:
-    name: CONFIG-SERVICE
+    name: CONFIG-SERVER
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/ashishkhare/cloudconfigserver.git
+          uri: https://github.com/ashishkhare/cloudconfigserver
+        default-label: main
 server:
   port: 9196
 eureka:
   client:
-    enabled: true
+    register-with-eureka: true
     fetch-registry: true
     service-url:
       defaultzone: http://localhost:8761/eurekaserver
