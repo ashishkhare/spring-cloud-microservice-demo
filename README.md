@@ -13,11 +13,11 @@
 4. Hystrix Integration with Dashboard
 5. Config Server Setup and fetch properties from github repo - https://github.com/ashishkhare/cloudconfigserver
 6. ELK Setup for logging. ELK running locally with version 6.8.0 compatible with JDK 1.8.0.
-7. Zipkin and Sleuth Integration for tracing
+7. Zipkin and Sleuth Integration for tracing. Zipkin Server Version - 2.12.9 
 
 ### Feedback
 
 ashish1910@gmail.com
 
 ### Note
-Some of the spring dependencies may give error while cloning the repo. Please resolve them by downgrading the versions to 2.2.2.RELEASE
+Some of the spring dependencies may give error while cloning the repo. Please resolve them by downgrading the versions to 2.2.2.RELEASE or below.
