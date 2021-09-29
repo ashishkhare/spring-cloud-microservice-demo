@@ -3,7 +3,7 @@
 ### Spring and Java Version Used
 - Spring: 2.2.6.RELEASE
 - Spring Cloud: Hoxton.SR3
-- Java: 1.8 
+- Java: 1.8.0
 
 ### You'll find:
 
@@ -11,8 +11,8 @@
 2. Microservices with Eureka client and H2
 3. API Gateway using Spring Cloud
 4. Hystrix Integration with Dashboard
-5. Config Server Setup and fetch properties from github repo
-6. ELK Setup for logging
+5. Config Server Setup and fetch properties from github repo - https://github.com/ashishkhare/cloudconfigserver
+6. ELK Setup for logging. ELK running locally with version 6.8.0 compatible with JDK 1.8.0.
 7. Zipkin and Sleuth Integration for tracing
 
 ### Feedback
