@@ -16,6 +16,7 @@
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>Hoxton.SR3</spring-cloud.version>
+        <sleuth.version>2.0.1.RELEASE</sleuth.version>
     </properties>
     <dependencies>
         <dependency>
@@ -60,6 +61,16 @@
             <groupId>net.logstash.logback</groupId>
             <artifactId>logstash-logback-encoder</artifactId>
             <version>6.6</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-sleuth</artifactId>
+            <version>${sleuth.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+            <version>${sleuth.version}</version>
         </dependency>
     </dependencies>
     <dependencyManagement>
